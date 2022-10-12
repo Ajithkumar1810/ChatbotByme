@@ -12,7 +12,15 @@ export const environment = {
     baseUrl: "http://localhost:3000/",
     apiUrl: "http://localhost:3000/getintentmessage",
     requestTextUrl: "http://localhost:3000/getintentmessage"
-  }
+  },
+  firebaseConfig = {
+    apiKey: "AIzaSyCzO-5nlRAWa4DxqEGVjS6W3eU7tUlkOiQ",
+    authDomain: "irrproject-88d75.firebaseapp.com",
+    projectId: "irrproject-88d75",
+    storageBucket: "irrproject-88d75.appspot.com",
+    messagingSenderId: "637882467223",
+    appId: "1:637882467223:web:e1875b8888c466cc353ad2"
+  };
 };
 
 /*

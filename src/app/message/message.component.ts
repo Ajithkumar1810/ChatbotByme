@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./message.component.css']
 })
 export class MessageComponent implements OnInit {
-  @Input('text') text: string;
+  @Input('text') text: string|undefined;
   @Input('date') date: any;
   @Input('owner') owner: boolean;
   @Input('colorBackRight') colorBackRight: string;
